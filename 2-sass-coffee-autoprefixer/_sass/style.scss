@@ -2,7 +2,10 @@
 
 .content-navigation {
   border-color: $blue;
+  border-image:url(border.png) 30 30 round;
+  box-shadow: 10px 10px 5px #888888;
   color: darken($blue, 9%);
+  transition: transform 1s;
 }
 
 .border {

@@ -1,6 +1,11 @@
 .content-navigation {
   border-color: #3bbfce;
-  color: #2ca2af; }
+  -webkit-border-image: url(border.png) 30 30 round;
+       border-image: url(border.png) 30 30 round;
+  box-shadow: 10px 10px 5px #888888;
+  color: #2ca2af;
+  -webkit-transition: -webkit-transform 1s;
+       transition: transform 1s; }
 
 .border {
   padding: 8px;
